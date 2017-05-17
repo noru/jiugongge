@@ -1,6 +1,6 @@
 {
   "name": "jiugongge",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "dist": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "test": "mocha --compilers js:babel-core/register --require ./test/testHelper.js --recursive ./test"
@@ -28,6 +28,5 @@
     "mocha": "^3.4.1",
     "webpack": "^2.4.1"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
