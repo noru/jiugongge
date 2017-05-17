@@ -6,7 +6,7 @@
     "test": "mocha --compilers js:babel-core/register --require ./test/testHelper.js --recursive ./test"
   },
   "description": "A 3x3 coordinate system input parser",
-  "main": "dist/index.js",
+  "main": "./dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/noru/jiugongge.git"
